@@ -17,7 +17,7 @@ O elemento HTML é um contêiner embutido genérico para expressar conteúdo, qu
 Um idatributo para permitir que <textarea>seja associado a um <label>elemento para fins de acessibilidade
 
 ## button
-O <form>elemento ao qual associar o botão (seu formulário proprietário ). O valor deste atributo deve ser o idde <form>a no mesmo documento. (Se este atributo não estiver definido, será <button>associado ao seu <form>elemento ancestral, se houver.)
+ <form>elemento ao qual associar o botão (seu formulário proprietário ). O valor deste atributo deve ser o idde <form>a no mesmo documento. (Se este atributo não estiver definido, será <button>associado ao seu <form>elemento ancestral, se houver.)
 
 Este atributo permite associar <button>elementos a <form>s em qualquer lugar do documento, não apenas dentro de um <form>. Também pode substituir um <form>elemento ancestral.
 
@@ -31,6 +31,10 @@ A URL que processa o envio do formulário. Este valor pode ser substituído por 
 O nome do formulário. O valor não deve ser a string vazia e deve ser único entre os formelementos da coleção de formulários em que está, se houver.
 
 ### id
+O atributo global define um identificador (ID) que deve ser único em todo o documento. Sua finalidade é identificar o elemento ao vincular (usando um identificador de fragmento ), criar scripts ou estilizar (com CSS ).id
+
+## form post
+O método POST; dados do formulário enviados como o corpo da solicitação.
 
 
 
