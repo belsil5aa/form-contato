@@ -1,3 +1,5 @@
+![código.do.projeto](img/codigo.png)
+
 ## form method
 O método HTTP para enviar o formulário. Os únicos métodos/valores permitidos são (sem distinção entre maiúsculas e minúsculas):
 
