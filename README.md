@@ -1,4 +1,3 @@
-![código.do.projeto](img/codigo.png)
 
 ## form method
 O método HTTP para enviar o formulário. Os únicos métodos/valores permitidos são (sem distinção entre maiúsculas e minúsculas):
@@ -39,5 +38,6 @@ O atributo global define um identificador (ID) que deve ser único em todo o doc
 O método POST; dados do formulário enviados como o corpo da solicitação.
 
 ## emil 
-linha 14 e 15
+linha 12
 
+![código.do.projeto](img/codigo.png)
