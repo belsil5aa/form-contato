@@ -7,8 +7,10 @@
 * [button](#button)
 
 
-## form method
+## form
 O método HTTP para enviar o formulário. Os únicos métodos/valores permitidos são (sem distinção entre maiúsculas e minúsculas):
+
+    * method - Falar do método aqui 
 
 ## label action
 A URL que processa o envio do formulário. Este valor pode ser substituído por um atributo formaction em um elemento <button>, <input type="submit"> ou <input type="image">. Este atributo é ignorado quando method="dialog" é definido.
