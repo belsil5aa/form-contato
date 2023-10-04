@@ -8,14 +8,23 @@
 
 
 ## form
-O método HTTP para enviar o formulário. Os únicos métodos/valores permitidos são (sem distinção entre maiúsculas e minúsculas):
+Este elemento define um formulário. É um elemento de container como um elemento &lt;div&gt; ou &lt;p&gt; , mas ele também suporta alguns atributos específicos para configurar a forma como o formulário se comporta
 
-    * method - Falar do método aqui 
+| Atributo | Descrição |
+|-----:|-----------|
+|     method| Este atributo define qual o método HTTP para enviar os dados (ele pode ser "GET" ou "POST"|
+|     action| Este atributo define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados.|
 
-## label action
-A URL que processa o envio do formulário. Este valor pode ser substituído por um atributo formaction em um elemento <button>, <input type="submit"> ou <input type="image">. Este atributo é ignorado quando method="dialog" é definido.
 
-## label form
+## label
+
+Representa uma legenda para um item em uma interface de usuário. Conta com o seguinte atributo:
+
+| Atributo | Descrição |
+|-----:|-----------|
+| for | O ID de um elemento de formulário relacionados com labelable no mesmo documento como o elemento label.|
+
+## label for
 O valor do foratributo deve ser único idpara um elemento rotulável relacionado ao formulário no mesmo documento que o <label>elemento. Portanto, qualquer labelelemento pode ser associado a apenas um controle de formulário.
 
 ## input type
@@ -50,4 +59,4 @@ O método POST; dados do formulário enviados como o corpo da solicitação.
 ## emil 
 linha 12
 
-![código.do.projeto](img/codigo.png)
+![código.do.projeto](img/codigo.png2.png)
